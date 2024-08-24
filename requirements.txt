@@ -1,0 +1,14 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Login
+Flask-Bcrypt
+Flask-WTF
+requests
+beautifulsoup4
+scikit-learn
+tensorflow
+redis
+celery
+gunicorn
+flask_mail

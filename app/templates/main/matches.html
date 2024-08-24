@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Upcoming Matches</h1>
+        <a href="{{ url_for('main.index') }}" class="btn">Home</a>
+<a href="{{ url_for('main.add_url') }}" class="btn">Add Site</a>
+        
+    </header>
+    
+    <main>
+        <section id="matches">
+            <h2>Matches List</h2>
+            <ul>
+                <!-- Example match items, dynamically generated -->
+                <li>
+                    <span class="team">Team A vs Team B</span>
+                    <span class="date">2024-08-25</span>
+                </li>
+                <li>
+                    <span class="team">Team C vs Team D</span>
+                    <span class="date">2024-08-26</span>
+                </li>
+                <!-- Add more matches here -->
+            </ul>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My Application. All rights reserved.</p>
+    </footer>
+</body>
+</html>

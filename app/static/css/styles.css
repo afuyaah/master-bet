@@ -1,0 +1,49 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid black;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Master Bet</h1>
+        <p>AI Based Match Analysis Site</p>
+        <a href="{{ url_for('auth.login') }}" class="btn">Get Started</a>
+    </header>
+    
+    <section id="features">
+        <div class="feature">
+            <h2>Today</h2>
+            <p> Analysed & predicted.</p>
+        </div>
+        <div class="feature">
+            <h2>Hot</h2>
+            <p>Description for feature</p>
+        </div>
+        <div class="feature">
+            <h2>Sports lovers</h2>
+            <p>Description for feature 3 goes here.</p>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Master bet. All rights reserved.</p>
+    </footer>
+</body>
+</html>
